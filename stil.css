@@ -1,0 +1,73 @@
+
+body{
+    background-image: url('./pica.jpg');
+    background-size: cover;
+}
+.forma{
+    background-color: white;
+    font-size: 19px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(43, 137, 168);
+    padding: 10px;
+    text-align: center;
+    width: fit-content; 
+    margin: auto;
+}
+#in{
+    border: 2px solid #4364cf;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    
+}
+input:focus {
+    outline:none;
+}
+select{
+    width: 150px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#broj{
+    width: 100px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#check{
+    width: 15px;
+    height: 20px;
+}
+
+#posalji{
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #4364cf;
+}
+
+a i{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 17px;
+    margin-left: 5px;
+}
+i{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
+a i:hover{
+     transform: scale(1.5);
+}
+#posalji:hover{
+      transform: skew(-10deg);
+       transform: scale(1.3);
+}

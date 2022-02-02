@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+img{
+    width: 300px;
+    margin-bottom: 25px;
+}
+#red{
+    margin: 25px;
+}
+#red:hover{
+    transition: ease-in 0.4s;
+    transform: scale(1.2);
+}
+#gore{
+    width: 100%;
+}
+.red{
+    display: block;
+    margin-left: 35px;
+    margin-right: auto;
+    width: 100%;
+}

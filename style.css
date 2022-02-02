@@ -1,0 +1,194 @@
+@import url('http://fonts.cdnfonts.com/css/gotham-black');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,2,116,1) 0%, rgb(10, 95, 206) 100%);
+  overflow-x: hidden;
+}
+header{
+    margin: 25px;
+    padding: 25px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  transition: all .2s ease-in-out;
+  opacity:0.9;
+}
+.container:hover{
+  transform: scale(0.9); 
+  opacity: 1;
+}
+.naslov {
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  right: 4%;
+  font-family: 'Gotham Black', sans-serif;
+  font-size: 80px;
+
+}
+.drugideo{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 35px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    transition: 0.9s;
+}
+.logo:hover{
+	transform: rotate(360deg);
+	transition: 0.4s;
+}
+.uvod{
+    color: white;
+    text-decoration: none;
+}
+.navigacija{
+  text-align: center;
+  font-size: 25px;
+  margin: 25px;
+}
+#navi{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin: 80px;
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 15px;
+}
+#navi:hover{
+  background-color: #a6b8ca;
+  color: rgb(0, 0, 0);
+}
+ul li{
+  list-style: none;
+  padding: 15px;
+}
+li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+li a:hover{
+  text-decoration: underline;
+}
+section{
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+h3{
+  margin-left: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 20px;
+}
+h2{
+  margin-left: 20px;
+}
+#umotvorine{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 70px;
+  background-color: transparent;
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+  margin: 20px 30px 20px 30px;
+  width: 96%;
+  height: 75px;
+  font-size: 29px;
+}
+footer{
+  font-family: 'Raleway', sans-serif;
+  margin: 0px 40px 0px 40px;
+}
+.futer{
+  background-color: transparent;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  border-bottom: none;
+}
+#fut{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 23px;
+  transition: 0.3s ease-in-out;
+}
+#fut:hover{
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transition: .3s ease;
+}
+a i{
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+  margin-left: 20px;
+  transition: 1s;
+}
+i:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+  color: rgb(255, 255, 255);
+}
+
+.roketman{
+    float: right;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: roketman;
+    animation-duration: 7s;
+}
+@keyframes roketman {
+     0% {
+    left: 450px;
+  }
+  48% {
+    -webkit-transform: rotateY(0deg); 
+  }
+  50% { 
+    left: calc(100% - 100px);
+    -webkit-transform: rotateY(180deg); 
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 480px;    
+    -webkit-transform: rotateY(0deg);
+  }
+}
+.roketman:hover{
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
+  cursor: pointer;
+}

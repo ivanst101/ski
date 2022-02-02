@@ -1,0 +1,38 @@
+body { 
+background: #b44444;
+}
+.kocka1, .kocka2, .kocka3, .kocka4, .kocka5, .kocka6, .kocka7, .kocka8, .kocka9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  background: url("./avion.jpg");
+}
+
+.kocka1 {
+  background-position: left top;
+}
+.kocka2 {
+  background-position: center top;
+}
+.kocka3 {
+  background-position: right top;
+}
+.kocka4 {
+  background-position: left center;
+}
+.kocka5 {
+  background-position: center center;
+}
+.kocka6 {
+  background-position: right center;
+}
+.kocka7 {
+  background-position: left bottom;
+}
+.kocka8 {
+  background-position: center bottom;
+}
+.kocka9 {
+  background: white;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stil2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Palačinke</title>
+</head>
+<body>
+    <form class="forma" id="forma_narudzbina" autocomplete="off">
+        <a href="narucivanjehrane.html">
+            <i class="fas fa-arrow-left"> Home</i>
+        </a>
+        <br>
+        <label for="ime">Ime i prezime:</label> <br>
+        <input type="text" name="ime" id="ime" autofocus required>
+        <br><br>
+        <label for="adresa">Adresa za dostavu:</label> <br>
+        <input type="text" name="adresa" id="adresa" required>
+        <br><br>
+        <label for="palacinka">Izaberite palačinku:</label>
+        <select>
+            <option value=“izbor1“>Slatka</option>
+            <option value=“izbor2“>Slana</option>
+        </select>
+        <br><br>
+
+
+        <label>Izaberite sastojke za slatku palačinku:</label>
+        <input type="checkbox" value="nutela" id="check" name="nutela">
+        <label for="nutela">Nutela</label>
+        <input type="checkbox" value="plazma" id="check" name="plazma">
+        <label for="plazma">Plazma</label>
+        <input type="checkbox" value="Banana" id="check" name="banana">
+        <label for="banana">Banana</label>
+        <br><br>
+        <label>Izaberite sastojke za slanu palačinku:</label>
+        <input type="checkbox" value="Sunka" id="check" name="sunka">
+        <label for="sunka">Šunka</label>
+        <input type="checkbox" value="pavlaka" id="check" name="pavlaka">
+        <label for="Pavlaka">Pavlaka</label>
+        <input type="checkbox" value="sir" id="check" name="sir">
+        <label for="Pavlaka">Sir</label>
+        <br><br>
+
+
+        <label for="vreme">Izaberite vreme:</label> <br>
+        <input type="time" name="vreme" id="vreme" required>
+        <br><br>
+        <label for="email">Unesite email:</label> <br>
+        <input id="in" type="email" name="email" id="email" required>
+        <br><br>
+        <label for="broj">Izaberite količinu (max 10):</label>
+        <input type="number" name="broj" id="broj" min="1" max="10" value="1" required>
+        <br><br>
+        <label for="napomena">Napomena:</label>
+        <textarea type="text" id="napomena" name="napomena" rows="5" cols="40">
+            </textarea>
+        <br> <br>
+        Kod za popust? <input type="text" name="kod" id="kod">
+        <br><br>
+        <button onclick="myFunction()">Porudzbina</button>
+        <br>
+        <p id="ispis"></p>
+    </form>
+
+
+
+    <script src="./scripta3.js"></script>
+</body>
+</html>
